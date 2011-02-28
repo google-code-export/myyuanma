@@ -8,5 +8,8 @@
 软件中集成了超强二笔输入法的帮助文档，数据来源于付东升老师的超强二笔输入法6.9.2[090726]码表，版权归原作者所有。
 本软件使用上自由，如需要修改代码或者需要源代码，可以自由向作者索取。
 
+下载地址：
+http://code.google.com/p/myyuanma/downloads/detail?name=eblx.7z&can=2&q=#makechanges
+
 = Details =
 http://myyuanma.googlecode.com/files/erbi.gif
