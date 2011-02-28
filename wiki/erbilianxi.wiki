@@ -1,5 +1,5 @@
-#summary One-sentence summary of this page.
-超强二笔练习软件发布
+#summary 超强二笔练习软件发布
+
 = Introduction =
 
 关于二笔输入法练习软件：
