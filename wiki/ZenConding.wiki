@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#可以显著提高html和css编写速度的插件
 
 = Introduction =
 
@@ -12,3 +12,6 @@
 下面是演示的视频：
 
 [http://v.youku.com/v_show/id_XMTM4NDQwNzgw.html]
+
+下面是vim安装zen-coding插件后的截图
+http://myyuanma.googlecode.com/files/vimZencoding.gif
