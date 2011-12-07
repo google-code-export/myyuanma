@@ -1,0 +1,14 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+一个很好的工具，可以很大程度上改善html和css的编写速度，并且有很有编辑器的插件可以选择，比如vim、dw、notepad++等好多种。。。
+
+项目地址： http://code.google.com/p/zen-coding
+
+
+
+= Details =
+下面是演示的视频：
+
+<wike:video url="http://player.youku.com/player.php/sid/XMTM4NDQwNzgw/v.swf" />
