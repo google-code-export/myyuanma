@@ -16,5 +16,5 @@
   *1. bug修复：修复只有firefox才正常显示的bug——原因：css中指定的webfont路径错误——忘记写相对路径。
   *2. fontdetect.js作者有更新，将fontdetect.js更新成新版Version: 0.2 (04 Mar 2012)
   *3. 删除对prototype的开源js库的依赖——仅仅一个函数，有替代方案，没必要用prototype
-  *4. 藏文字体的定制方法将在近期出来，另外，会出新的定制版，基于不丹宗卡藏文字体（dd_chen），该藏文字体基于*OFL授权协议*（*SIL Open Font License*）http://scripts.sil.org/OFL
+  *4. 藏文字体的定制方法将在近期出来，另外，会出新的定制版，基于不丹宗卡藏文字体（dd_chen），该藏文字体基于*OFL授权协议(SIL Open Font License)*http://scripts.sil.org/OFL
   *5.鉴于珠穆朗玛系列藏文字体是统战部旗下的中国藏学研究中心开发的，字体的授权协议不明，所以不建议应用到生产环境。如有应用到生产环境的需要，请等待本站的新版本，基于不丹宗卡字体（dd_uchen）的定制版本,该字体是基于OFL授权协议。
