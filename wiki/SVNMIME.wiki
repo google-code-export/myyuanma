@@ -1,4 +1,4 @@
-#TortoiseSVN的SVN Setting设置
+#summary TortoiseSVN的SVN Setting设置,用来解决Google Code 显示html为文本的问题
 = 解决Google Code 显示html为文本的问题 =
 = 说明 =
 本文针对TorToiseSVN的设置做说明
@@ -7,7 +7,7 @@ google code之所以显示html为文本，原因是svn提交的时候，会设�
 
 = 操作方法 =
 TortoiseSVN的setting中，选择General选项卡，然后点击Edit按钮（Subversion Config File旁边）
-在记事本的config文件中，修改如下配置节中的配置(miscellany中仅仅是取消注释符号{{{#}}})：
+在记事本的config文件中，修改如下配置节中的配置(miscellany中仅仅是取消注释符号"#")：
 
 {{{
 [miscellany]
