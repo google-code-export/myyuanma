@@ -3,5 +3,6 @@
   * [erbilianxi 二笔练习软件软件发布]
   * [ZenCoding ZenCoding4vim的截图演示]
   * [TibetanWebFont 网页嵌入藏文字体方案]
+  * [http://myyuanma.googlecode.com/svn/trunk/autoDetect-AutoLoadWebfont-DDC_Uchen-V3/index.html 网页嵌入藏文字体方案【在线演示】]
   * [SVNMIME 解决Google Code 显示html为文本的问题]
   * [http://code.google.com/p/noday/wiki/WikiSyntax Google Wiki语法帮助【中文】]
