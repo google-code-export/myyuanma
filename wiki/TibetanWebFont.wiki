@@ -1,4 +1,4 @@
-#summary 藏文字体的网页嵌入方案
+#summary 藏文字体的网页嵌入方案 网页嵌入藏文字体实践
 
 <wiki:toc max_depth="2" /> 
 
