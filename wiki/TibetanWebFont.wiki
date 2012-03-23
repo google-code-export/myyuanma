@@ -15,16 +15,15 @@
 == 在线演示 ==
 <font color="red">*[http://myyuanma.googlecode.com/svn/trunk/autoDetect-AutoLoadWebfont-DDC_Uchen-V3/index.html 在线演示页面（首页）]*</font>
 
-== 可应用范围 ==
+== 笔者想到的应用范围 ==
 {{{
-列举我想到的应用，告诉大家可以用来做什么用途
+列举我想到的应用，告诉大家这个项目的用途（*显示藏文的关键技术*）
 }}}
 在没有安装藏文字体的电脑显示：
 <font color=red>
  * 1.藏文chm文件
  * 2.藏文网站
  * 3.离线的藏文书籍，比如《甘珠尔》
- * 4.等等。。。别的话暂时没想到，哈哈
 </font>
 
 = 详细说明 =
