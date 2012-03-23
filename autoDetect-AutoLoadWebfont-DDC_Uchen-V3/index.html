@@ -89,7 +89,7 @@
             <h1>
               没有藏文字体，则动态嵌入webfont的方式完美显示藏文网页说明
             </h1>
-            <h2><font color="red">说明：本人不懂藏文，演示的藏文页面是随意复制，不知道是什么内容。</font></h2>
+            <h2 style="text-align:center"><font color="red">说明：本人不懂藏文，演示的藏文页面是随意复制，不知道是什么内容。</font></h2>
           </td>
         </tr>
         <tr>
@@ -103,7 +103,27 @@
                     ﻿完美显示藏文：<br />
                     没有藏文字体的电脑,下载webfont显示；<br />
                     含有藏文字体的电脑，使用电脑上的字体显示
-                  </h2>更新说明 （2012-03-23）：<br />
+                  <ul id="nav">
+                    <li>
+                    	<h2>演示范例：</h2>
+                      <a href="justLoad.html" target=
+                      "_black">例1：直接下载并加载webfont</a>
+                    </li>
+                    <li>
+                      <a href="justLoad1.html" target=
+                      "_black">例2：直接下载并加载webfont（综合）</a>
+                    </li>
+                    <li>
+                      <a href="fontDetect.html" target=
+                      "_black">例3：检测是否有安装藏文字体：没有安装，则从网站上下载wenfont并加载</a>
+                    </li>
+                    <li>
+                      <a href="fontDetect1.html" target=
+                      "_black">例4：检测是否有安装藏文字体：没有安装，则从网站上下载wenfont并加载（综合）</a>
+                    </li>
+                  </ul>
+                  5.在线演示页面首页：<a href="http://myyuanma.googlecode.com/svn/trunk/autoDetect-AutoLoadWebfont-DDC_Uchen-V3/index.html" target="_black">藏文字体的网页嵌入方案在线演示</a><br/> 
+                    </h2>更新说明 （2012-03-23）：<br />
                   1.
                   本次特别定制版基于不丹宗卡藏文字体的DDC_Uchen，该字体基于OFL
                   授權（SIL Open Font License）http://scripts.sil.org/OFL<br />
@@ -114,7 +134,6 @@
                   4.如有更新：<a href=
                   "http://code.google.com/p/myyuanma/downloads/list?can=2&amp;q=AutoLoadWebfont&amp;colspec=Filename+Summary+Uploaded+ReleaseDate+Size+DownloadCount"
                   target="_blank">最新版下载地址</a><br />
-                  5.在线演示页面：<a href="http://myyuanma.googlecode.com/svn/trunk/autoDetect-AutoLoadWebfont-DDC_Uchen-V3/index.html">藏文字体的网页嵌入方案在线演示</a><br/> 
                   （2012-03-12）：<br />
                   1.
                   bug修复：修复只有firefox才正常显示的bug——原因：css中指定的webfont路径错误——忘记写相对路径。<br />
@@ -139,12 +158,9 @@
                   使用的是“DDC_Uchen”这个字体文件。<br />
                   将DDC_Uchen.ttf上传到下列网站可以转化成webfont，用来嵌入网页(两个站都可以)：<br />
 
-                  <a href="http://onlinefontconverter.com/" target=
-                  "_blank">http://onlinefontconverter.com/</a><br />
-                  <a href="http://www.fontsquirrel.com/" target=
-                  "_blank">http://www.fontsquirrel.com/</a><br />
+                  <a href="http://onlinefontconverter.com/" target="_blank">http://onlinefontconverter.com/</a><br />
+                  <a href="http://www.fontsquirrel.com/" target="_blank">http://www.fontsquirrel.com/</a><br />
                   然后转化的(切记，有选择编码的选项——如果生成的字体只能显示英文，那要看看这个选项)：<br />
-
                   ddc_uchen-webfont.eot （.EOT，适用于Internet Explorer 4.0+）<br />
                   ddc_uchen-webfont.svg （.SVG，适用于Chrome、IPhone）<br />
                   ddc_uchen-webfont.ttf （.TTF或.OTF，适用于Firefox
@@ -155,24 +171,6 @@
                   "http://www.blueidea.com/tech/web/2009/7263.asp" target=
                   "_blank">http://www.blueidea.com/tech/web/2009/7263.asp</a><br />
                   Index.html源代码中的Font-Family中的字体,可以从转化字体的网站中下载到的stylesheet.css文件中获得，然后照里面的修改就可以了。。。
-                  <ul id="nav">
-                    <li>
-                      <a href="justLoad.html" target=
-                      "_black">例1：直接下载并加载webfont</a>
-                    </li>
-                    <li>
-                      <a href="justLoad1.html" target=
-                      "_black">例2：直接下载并加载webfont（综合）</a>
-                    </li>
-                    <li>
-                      <a href="fontDetect.html" target=
-                      "_black">例3：检测是否有安装藏文字体：没有安装，则从网站上下载wenfont并加载</a>
-                    </li>
-                    <li>
-                      <a href="fontDetect1.html" target=
-                      "_black">例4：检测是否有安装藏文字体：没有安装，则从网站上下载wenfont并加载（综合）</a>
-                    </li>
-                  </ul>
                 </td>
                 <td width="20"></td>
               </tr>
