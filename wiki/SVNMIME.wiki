@@ -8,7 +8,7 @@ google code之所以显示html为文本，原因是svn提交的时候，会设�
 = 操作方法 =
 TortoiseSVN的setting中，选择General选项卡，然后点击Edit按钮（Subversion Config File旁边）
 在记事本的config文件中，修改如下配置节中的配置(miscellany中仅仅是取消注释符号"#")：
-
+在TortoiseSVN中设置好后，重新将文件上传到google code，可能需要试几次。
 {{{
 [miscellany]
 global-ignores = *.o *.lo *.la *.al .libs *.so *.so.[0-9]* *.a *.pyc *.pyo *.rej *~ #*# .#* .*.swp .DS_Store
@@ -55,8 +55,8 @@ WHATSNEW* = svn:eol-style=native;svn:mime-type=text/plain
 *.jpg = svn:mime-type=image/jpeg
 *.gif = svn:mime-type=image/gif
 Makefile = svn:eol-style=native
-*.css = svn:eol-style=native;mime-type=text/css
-*.js = svn:eol-style=nativec;mime-type=text/javascript
+*.css = svn:mime-type=text/css
+*.js = svn:mime-type=text/javascript
 *.eot = svn:mime-type=application/vnd.ms-fontobject
 *.woff = svn:mime-type=application/x-font-woff
 *.ttf = svn:mime-type=application/x-font-truetype
