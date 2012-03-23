@@ -1,5 +1,5 @@
 * [index wiki首页]
-* 项目列表
- * [erbilianxi 二笔练习软件软件发布]
- * [ZenCoding ZenCoding4vim的截图演示]
- * [TibetanWebFont 网页嵌入藏文字体方案]
+ * 项目列表
+   * [erbilianxi 二笔练习软件软件发布]
+   * [ZenCoding ZenCoding4vim的截图演示]
+   * [TibetanWebFont 网页嵌入藏文字体方案]
