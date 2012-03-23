@@ -1,5 +1,7 @@
 #summary 这个页面是关于藏文字体的网页嵌入方案
 
+<wiki:toc max_depth="2" /> 
+
 = Introduction =
 
 网页中嵌入藏文字体的示例
