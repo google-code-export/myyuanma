@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>
+      autoDetect-AutoLoadWebfont-v3说明
+    </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style type="text/css">
+/*<![CDATA[*/
+    body {
+    margin: 0;
+    background-color: #D0D8CD;
+    scrollbar-base-color: #C9D1C6;
+    color: #000000;
+    }
+    A:link {
+    text-decoration: underline;
+    color: #696A97;
+    }
+    A:hover {
+    text-decoration: underline;
+    color: #CC3300;
+    }
+    A:active {
+    text-decoration: none;
+    color: #CC3300;
+    }
+    A:visited {
+    text-decoration: underline;
+    color: #696A67;
+    }
+    p, li, dt, dd {
+    font-size: 10pt;
+    text-align: left;
+    color: #000000;
+    }
+    pre {
+    color: #000000;
+    }
+    h1 {
+    font-size: 15pt;
+    text-align: center;
+    color: #4A735A;
+    }
+    h2 {
+    font-size: 13pt;
+    text-align: left;
+    color: #4A735A;
+    }
+    h3 {
+    font-size: 11pt;
+    text-align: left;
+    color: #000000;
+    }
+    .tleft {
+    margin-left: 6px;
+    font-size: 8pt;
+    text-align: left;
+    }
+    .tright {
+    margin-right: 6px;
+    font-size: 8pt;
+    text-align: right;
+    }
+    hr {
+    height: 1px;
+    border: 1px solid #4A735A;
+    }
+    .tmain {
+    background-color: #EFF2EB;
+    border: 1px solid #4A735A;
+    border-collapse: collapse;
+    }
+    .tdark {
+    background-color: #E8EBE4;
+    border: 1px solid #4A735A;
+    border-collapse: collapse;
+    }
+    /*]]>*/
+    </style>
+  </head>
+  <body>
+    <a name="top" id="top"></a>
+    <div class="c1">
+      <table class="tmain" width="90%" cellpadding="4" cellspacing="0">
+        <tr>
+          <td class="tdark">
+            <h1>
+              没有藏文字体，则动态嵌入webfont的方式完美显示藏文网页说明
+            </h1>
+          </td>
+        </tr>
+        <tr>
+          <td class="tmain">
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="20"></td>
+                <td>
+                  <br />
+                  <h2>
+                    ﻿完美显示藏文：<br />
+                    没有藏文字体的电脑,下载webfont显示；<br />
+                    含有藏文字体的电脑，使用电脑上的字体显示
+                  </h2>更新说明 （2012-03-23）：<br />
+                  1.
+                  本次特别定制版基于不丹宗卡藏文字体的DDC_Uchen，该字体基于OFL
+                  授權（SIL Open Font License）http://scripts.sil.org/OFL<br />
+                  2.更多详情请查看 <a href=
+                  "http://code.google.com/p/myyuanma/wiki/TibetanWebFont" target=
+                  "_black"><b>藏文字体的网页嵌入方案</b></a><br />
+                  3.特别说明：喜马拉雅和珠穆朗玛系列字体因为字体授权不明，所以没有采用。<br />
+
+                  4.如有更新：<a href=
+                  "http://code.google.com/p/myyuanma/downloads/list?can=2&amp;q=AutoLoadWebfont&amp;colspec=Filename+Summary+Uploaded+ReleaseDate+Size+DownloadCount"
+                  target="_blank">最新版下载地址</a><br />
+                  （2012-03-12）：<br />
+                  1.
+                  bug修复：修复只有firefox才正常显示的bug——原因：css中指定的webfont路径错误——忘记写相对路径。<br />
+
+                  2. fontdetect.js作者有更新，将fontdetect.js更新成新版Version: 0.2 (04
+                  Mar 2012)<br />
+                  3.
+                  删除对prototype的开源js库的依赖——仅仅一个函数，有替代方案，没必要用prototype<br />
+
+                  <br />
+                  这个添加了判断，如果浏览器含有可以显示喜马拉雅输入法的文字的字体（这里判断的字体是这些：'Microsoft
+                  Himalaya',藏研乌坚体,'DDC_Uchen'），动态调用那个没有使用webfont的css文件，如果
+                  没有这些字体，那么动态调用那个使用了webfont的css文件<br />
+                  <a href="css/zwjz.css" target="_black">zwjz.css</a>,<a href="css/zwjz1.css"
+                  target=
+                  "_black">zwjz1.css</a>————藏文加载(自动从网站上下载webfont字体，使没有安装藏文字体的电脑显示藏文)<br />
+
+                  <a href="css/zw.css" target="_black">zw.css</a>,<a href="css/zw1.css" target=
+                  "_black">zw1.css</a>————藏文(直接使用用户电脑的藏文字体显示藏文，适应于那些已经安装有藏文字体的电脑)<br />
+
+                  <br />
+                  使用的是“DDC_Uchen”这个字体文件。<br />
+                  将DDC_Uchen.ttf上传到下列网站可以转化成webfont，用来嵌入网页(两个站都可以)：<br />
+
+                  <a href="http://onlinefontconverter.com/" target=
+                  "_blank">http://onlinefontconverter.com/</a><br />
+                  <a href="http://www.fontsquirrel.com/" target=
+                  "_blank">http://www.fontsquirrel.com/</a><br />
+                  然后转化的(切记，有选择编码的选项——如果生成的字体只能显示英文，那要看看这个选项)：<br />
+
+                  ddc_uchen-webfont.eot （.EOT，适用于Internet Explorer 4.0+）<br />
+                  ddc_uchen-webfont.svg （.SVG，适用于Chrome、IPhone）<br />
+                  ddc_uchen-webfont.ttf （.TTF或.OTF，适用于Firefox
+                  3.5、Safari、Opera）<br />
+                  ddc_uchen-webfont.woff（Mozilla宣布采纳开放式字体规范“Web Open Font
+                  Format”(WOFF)）<br />
+                  相关资料：在网页中嵌入任意字体的解决方案 <a href=
+                  "http://www.blueidea.com/tech/web/2009/7263.asp" target=
+                  "_blank">http://www.blueidea.com/tech/web/2009/7263.asp</a><br />
+                  Index.html源代码中的Font-Family中的字体,可以从转化字体的网站中下载到的stylesheet.css文件中获得，然后照里面的修改就可以了。。。
+                  <ul id="nav">
+                    <li>
+                      <a href="justLoad.html" target=
+                      "_black">例1：直接下载并加载webfont</a>
+                    </li>
+                    <li>
+                      <a href="justLoad1.html" target=
+                      "_black">例2：直接下载并加载webfont（综合）</a>
+                    </li>
+                    <li>
+                      <a href="fontDetect.html" target=
+                      "_black">例3：检测是否有安装藏文字体：没有安装，则从网站上下载wenfont并加载</a>
+                    </li>
+                    <li>
+                      <a href="fontDetect1.html" target=
+                      "_black">例4：检测是否有安装藏文字体：没有安装，则从网站上下载wenfont并加载（综合）</a>
+                    </li>
+                  </ul>
+                </td>
+                <td width="20"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td class="tdark">
+            <p class="tright">
+              Default Template for <a href="http://www.easyhtools.com" target="_blank">Easy Text To
+              HTML Converter</a>
+            </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
