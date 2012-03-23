@@ -2,3 +2,4 @@
   * [erbilianxi 二笔练习软件软件发布]
   * [ZenCoding ZenCoding4vim的截图演示]
   * [TibetanWebFont 网页嵌入藏文字体方案]
+  * [http://code.google.com/p/noday/wiki/WikiSyntax Google Wiki语法帮助中文版]
