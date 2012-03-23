@@ -6,6 +6,10 @@
 
 网页中嵌入藏文字体的示例
 
+= 最新版下载地址 =
+
+http://code.google.com/p/myyuanma/downloads/list?can=2&q=AutoLoadWebfont&colspec=Filename+Summary+Uploaded+ReleaseDate+Size+DownloadCount
+
 == 作用 ==
 没有安装藏文字体的电脑，也可以显示藏文网页。
 
