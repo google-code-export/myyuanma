@@ -1,3 +1,4 @@
+#summary 侧边栏
 * [index wiki首页]
   * [http://code.google.com/p/myyuanma/w/list myyuanma的Wiki列表]
   * [erbilianxi 二笔练习软件软件发布]
