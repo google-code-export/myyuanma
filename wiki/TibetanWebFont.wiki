@@ -46,7 +46,7 @@
  == 准备工作 ==
     * 准备用来定制的字体，需要考虑字体授权，建议用ddc_uchen(不丹宗卡字体，基于*OFL授权协议*)
  == 定制步骤 ==
-    * 在windows下（由于定制网站的原因，linux下的浏览器不能上传字体）进入webfont定制页面 http://www.fontsquirrel.com/fontface/generator
+    * 在windows下（由于定制字体网站使用了flash作为上传插件的原因，linux下的浏览器不能上传字体，除非设置好了flash安装flash插件的方法在这里不再详细叙述，如不是很熟悉linux，又需要在linux下操作，请下载并安装[http://www.google.cn/chrome/ Google Chrome]安装，使用google进入定制字体网站。原因：——默认的gnash flash插件不能正常显示新的flash格式，google官方的google chrome浏览器自带了flash官方插件；chromium是google浏览器的开源版本，自带的flash插件是gnash，也不能显示最新的flash格式。）进入webfont定制页面 http://www.fontsquirrel.com/fontface/generator
     * 点击*Add Fonts*按钮，将选定的字体上传，选中*EXPERT...*
     * 其他定制选项详情下图
     http://myyuanma.googlecode.com/files/GetTibetanWebFonts.gif
