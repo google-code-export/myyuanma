@@ -57,7 +57,7 @@ WHATSNEW* = svn:eol-style=native;svn:mime-type=text/plain
 Makefile = svn:eol-style=native
 *.css = svn:mime-type=text/css
 *.js = svn:mime-type=text/javascript
-;此处是嵌入的webfonts相关设置
+### 此处是嵌入的webfonts相关设置
 *.eot = svn:mime-type=application/vnd.ms-fontobject
 *.woff = svn:mime-type=application/x-font-woff
 *.ttf = svn:mime-type=application/x-font-truetype
