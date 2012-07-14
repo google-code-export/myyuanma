@@ -7,11 +7,9 @@
 
 网页中嵌入藏文字体的示例
 == 准备实现的内容 ==
-*fontdetect.js作者有更新到0.3，准备更新这个js文件。   
-
-*动态加载藏文字体时，刚开始文字全部显示为框框，准备优化一下，使其流畅显示（暂没想到思路）。
-
-*如有时间，将此文译为英文。
+ #[http://www.lalit.org/lab/javascript-css-font-detect/ fontdetect.js]作者有更新到0.3，准备更新这个js文件      
+ #动态加载藏文字体时，开始时文字全部显示为框框，准备优化使其流畅显示（暂没思路）
+ #译为英文计划
 
 
 == 作用 ==
@@ -48,7 +46,6 @@
   (2012-03-12) 
   * 1. bug修复：修复只有firefox才正常显示的bug——原因：css中指定的webfont路径错误——忘记写相对路径。
   * 2. fontdetect.js作者有更新，将fontdetect.js更新成新版Version: 0.2 (04 Mar 2012)
-     http://www.lalit.org/lab/javascript-css-font-detect/ 已经有0.3的更新版了，近期或许对这个进行更新，如果有时间的话。
   * 3. 删除对prototype的开源js库的依赖——仅仅一个函数，有替代方案，没必要用prototype
   
 = 藏文字体的!WebFont定制方案 =
