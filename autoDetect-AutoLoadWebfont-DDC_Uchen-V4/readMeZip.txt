@@ -1,4 +1,4 @@
-网页嵌入藏文字体示例v3 特别定制版（动态嵌入藏文字体方案）2012-03-23  zip压缩版
+网页嵌入藏文字体示例v4 特别定制版（动态嵌入藏文字体方案）2012-07-16  zip压缩版
 
 嵌入字体 
 font Detect  
@@ -22,6 +22,10 @@ auto download webfont
 3.离线的藏文书籍，比如《甘珠尔》
 
 更新说明
+2012-7-16：
+1. fontdetect.js作者有更新到0.3，更新了这个js文件
+2. 动态加载藏文字体时，开始时文字全部显示为框框，优化使其流畅显示
+
 2012-03-23：
 1. 本次特别定制版基于不丹宗卡藏文字体的DDC_Uchen，该字体基于OFL 授權（SIL Open Font License）http://scripts.sil.org/OFL
 2.更多详情请查看 http://code.google.com/p/myyuanma/wiki/TibetanWebFont 
