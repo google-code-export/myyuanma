@@ -1,5 +1,5 @@
 #summary 藏文字体的网页嵌入方案 网页嵌入藏文字体实践
-#labels 藏文字体,嵌入藏文,嵌入字体,网页,动态
+#labels 藏文字体,嵌入藏文,嵌入字体,网页,动态,动态嵌入,webfont,Embedded,tibetean
 
 <wiki:toc max_depth="2" /> 
 = 藏文字体的网页嵌入方案 =
@@ -7,8 +7,6 @@
 
 网页中嵌入藏文字体的示例
 == 准备实现的内容 ==
- # [http://www.lalit.org/lab/javascript-css-font-detect/   fontdetect.js]作者有更新到0.3，准备更新这个js文件      
- # 动态加载藏文字体时，开始时文字全部显示为框框，准备优化使其流畅显示（暂没思路）
  # 译为英文计划
 
 
@@ -39,7 +37,11 @@
   * 含有藏文字体的电脑，使用电脑上的字体来显示
 
 == 更新日志 ==
- （2012-03-23）
+（2012-07-16）
+ # [http://www.lalit.org/lab/javascript-css-font-detect/   fontdetect.js]作者有更新到0.3，更新了这个js文件      
+ # 动态加载藏文字体时，开始时文字全部显示为框框，优化使其流畅显示
+ 
+（2012-03-23）
   * 1. 本次特别定制版基于不丹宗卡藏文字体的DDC_Uchen，该字体基于OFL 授權（SIL Open Font License）http://scripts.sil.org/OFL
   * 2.更多详情请查看 http://code.google.com/p/myyuanma/wiki/TibetanWebFont 
   * 3.特别说明：喜马拉雅和珠穆朗玛系列字体因为字体授权不明，所以没有采用。
